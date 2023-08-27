@@ -1,0 +1,29 @@
+{
+  "name": "ulbi-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "vue-i18n": "npm:@vue-i18n-edge"
+  },
+  "dependencies": {
+    "url": "^0.11.1",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.3.0-beta.19",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.12.3",
+    "@intlify/vite-plugin-vue-i18n": "^7.0.0",
+    "@types/node": "^20.5.6",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.66.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-svg-loader": "^4.0.0",
+    "vue-tsc": "^1.8.5"
+  }
+}
